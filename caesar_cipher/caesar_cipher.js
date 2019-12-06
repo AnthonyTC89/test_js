@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const caesar = (str, key) => {
   const result = [];
   for (let i = 0; i <= str.length - 1; i += 1) {
