@@ -3,9 +3,9 @@
 
 const analysis = {
   average: (arr) => { return (arr.reduce((a, b) => a + b, 0) / arr.length); },
-  min: (arr) => Math.min(...arr),
-  max: (arr) => Math.max(...arr),
-  len: (arr) => arr.length,
+  min: (arr) => { return Math.min(...arr); },
+  max: (arr) => { return Math.max(...arr); },
+  len: (arr) => { return arr.length; },
 };
 
 module.exports = analysis;
