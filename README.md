@@ -1,12 +1,9 @@
-# test_js
-PROJECT: TESTING PRACTICE
-
 <br>
 <p align="center">
-  <h3 align="center">JavaScript TDD with Jest</h3>
+  <h1 align="center">JavaScript TDD with Jest</h1>
 
   <p align="center">
-    JavaScript Project
+    PROJECT: TESTING PRACTICE
     <br>
     <br>
     <a href="https://github.com/AnthonyTC89/test_js/issues">Report Bug</a>

@@ -15,6 +15,10 @@ test('Testing for punctuation', () => {
   expect(caesar('zZ.,/', 1)).toBe('aA/-0');
 });
 
+test('Testing for punctuation two', () => {
+  expect(caesar('ABC!.abc', 1)).toBe('BCD</bcd');
+});
+
 test('Testing ceasar cipher', () => {
   expect(caesar('defend', 10)).toBe('nopoxn');
 });
